@@ -35,26 +35,26 @@ header div{
     margin-right: 1%;
 }
 .block1{
-    padding-top: 333px;
+    padding-top: 17.5%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 960px;
+    padding-left: 50.5%;
 }
 .block1 h{
     font-size: 48px;
 }
 .place{
-    padding-top: 15px;
+    padding-top: 0.2%;
     display: flex;
     align-items: center;
 }
 .place img{
-    margin-right: 10px;
-    width: 18px;
-    height: 24px;
+    margin-right: 1vw;
+    width: 3.5%;
+    height: 4%;
 }
 .block1 a{
     font-size: 36px;
@@ -203,8 +203,10 @@ footer{
     }
     header{
         max-width: 1920px;
+        height: 66px;
     }
     footer{
         max-width: 1920px;
+        height: 270px;
     }
 }
