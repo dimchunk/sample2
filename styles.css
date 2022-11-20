@@ -381,3 +381,136 @@ footer{
         margin-right: 2.5%;
     }
 }
+@media screen and (max-width: 376px) {
+    *{
+        font-size: 16px;
+    }
+    .container{
+        background-image: url(img/back375.png);
+        background-position: 0 0 0 30%;
+    }
+    .logo_text {
+        font-size: 24px;
+    }
+    header{
+        height: 5%;
+        padding-left: 5%;
+    }
+    .block1 h {
+        font-size: 24px;
+    }
+    .place img {
+        display: none;
+    }
+    .block1 a {
+        font-size: 22px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .block2 {
+        padding-top: 20%;
+    }
+    .bl2_1 p {
+        width: 100%;
+    }
+    .bl2_1 {
+        margin-left: 4.2%;
+    }
+    .bl2_1 img {
+        display: none;
+    }
+    .bl2_1 {
+        display: block;
+    }
+    .block1 h{
+        text-align: center;
+    }
+    .block1 p{
+        text-align: center;
+    }
+    .burger img {
+        width: 60%;
+    }
+    .block1{
+        padding-left: 0%;
+        margin:0 auto;
+        width: 90%;
+        padding-top: 24%;
+        display: block;
+        text-align: center;
+    }
+    .place{
+        display: block;
+    }
+    .main_text {
+        font-size: 24px;
+    }
+    .hours{
+        font-size: 18px;
+    }
+    .price2 {
+        align-items: center;
+        flex-direction: column;
+    }
+    .gray_text {
+        font-size: 16px;
+    }
+    .s2 {
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    .gray_text p {
+        font-size: 16px;
+        padding-left: 6vw;
+    }
+    .price2 img{
+        width: 30%;
+    }
+    .gray_text p{
+        background-size: 7%;
+    }
+    .s1 a {
+        font-size: 22px;
+        margin-top: 4%;
+    }
+    .s2 a {
+        font-size: 22px;
+        margin-top: 4%;
+    }
+    .price1 p {
+        margin-top: 4%;
+        padding-left: 7vw;
+        text-align: left;
+    }
+    .block3 img {
+        display: none;
+    }
+    .block_text h {
+        font-size: 24px;
+    }
+    .block_text {
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block_text ul {
+        width: 90%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo_foot {
+        margin-right: 0%;
+        text-align: center;
+    }
+    .info {
+        text-align: center;
+        padding-left: 0%;
+        margin-bottom: 5%;
+    }
+    .messangers {
+        display: none;
+    }
+}
