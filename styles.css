@@ -220,4 +220,113 @@ footer{
     .a1{
         margin-left: 10px;
     }
+    .s1 a{
+        margin-top: 24px;
+    }
+    .s2{
+        margin-left: 150px;
+    }
+    .s2 a{
+        margin-top: 24px;
+    }
+    .gray_text{
+        margin-top: 24px;
+    }
+    .gray_text p{
+        margin-top: 35px;
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .container{
+        background-image: url(img/back1440.png);
+    }
+    .s2 {
+        margin-left: 8vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .bl2_1 p {
+        width: 50%;
+    }
+    .services img{
+        width: 30%;
+        height: 30%;
+    }
+    .block_text ul {
+        width: 90%;
+    }
+    .s2 {
+        margin-left: 6vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        background-image: url(img/back1024.png);
+    }
+    .logo_text{
+        font-size: 32px;
+    }
+    .burger img{
+        width: 70%;
+    }
+    header div{
+        width: 5.5%;
+    }
+    .block1 h {
+        font-size: 36px;
+        margin-bottom: 1%;
+    }
+    .block1 a{
+        font-size: 28px;
+        margin-top: 2%;
+    }
+    *{
+        font-size: 20px;
+    }
+    .bl2_1 p{
+        width: 60%;
+    }
+    .bl2_1 img{
+        width: 10%;
+    }
+    .main_text{
+        font-size: 36px;
+    }
+    .hours{
+        font-size: 22px;
+    }
+    .gray_text{
+        font-size: 18px;
+    }
+    .gray_text p{
+        font-size: 18px;
+        padding-left: 3vw;
+    }
+    .s1 a{
+        font-size: 26px;
+        margin-top: 5%;
+    }
+    .s2 a{
+        font-size: 26px;
+    }
+    .block_text h{
+        font-size: 36px;
+    }
+    .block_text ul {
+        width: 95%;
+    }
+    .logo_foot img{
+        width: 80%;
+    }
+    .messangers img{
+        width: 22%;
+    }
+    .messangers {
+        padding-right: 3.5%;
+    }
+    footer{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
 }
