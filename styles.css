@@ -330,3 +330,54 @@ footer{
         padding-bottom: 3%;
     }
 }
+@media screen and (max-width: 768px) {
+    .container{
+        background-image: url(img/back768.png);
+    }
+    *{
+        font-size: 18px;
+    }
+    .services img{
+        display: none;
+    }
+    .bl2_1 p {
+        width: 80%;
+    }
+    .block1 {
+        padding-left: 45%;
+    }
+    .block1 a {
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+    .price2{
+        justify-content: space-around;
+    }
+    .price1 {
+        margin-left: 0;
+    }
+    .price1 p {
+        margin-top: 4%;
+        padding-left: 5.5%;
+    }
+    .gray_text p {
+        padding-left: 4.3vw;
+    }
+    .services{
+        display: block;
+    }
+    .block3 img {
+        margin-top: 15%;
+        width: 35%;
+        height: 35%;
+    }
+    .block_text {
+        margin-left: 6%;
+    }
+    .logo_foot img {
+        width: 60%;
+    }
+    .logo_foot{
+        margin-right: 2.5%;
+    }
+}
