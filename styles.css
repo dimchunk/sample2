@@ -1,4 +1,8 @@
 @import url(text/undertale_battle_font.ttf);
+@font-face {
+    font-family: 'Undertale Battle Font';
+    src: url(text/undertale_battle_font.ttf);
+}
 *{
     font-family: 'Undertale Battle Font', sans-serif;
     padding: 0;
