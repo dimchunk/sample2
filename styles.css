@@ -386,7 +386,7 @@ footer{
         margin-right: 2.5%;
     }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
     *{
         font-size: 16px;
     }
